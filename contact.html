@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.jpg" alt="logo"></a>
+
+            </div>
+            <nav>
+                <ul>
+                    <li class="page"><a href="./about.html">About</a></li>
+                    <li class="page "><a href="./work.html">Our Work</a></li>
+                    <li class="page selected"><a href="./contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="calltoaction">
+                <a href="./donate.html"><button>
+                        Donate here
+                    </button></a>
+            </div>
+        </div>
+        <div class="body">
+            <div class="name">
+                <h1 class="title">
+                    Charity Organisation
+                </h1>
+                <h3 class="subtitle">
+                    A mentor a day keeps problems away
+                </h3>
+            </div>
+
+            <div>
+                <img id="bodyimage" src="./images/headerimage.png" alt="Header Image">
+            </div>
+        </div>
+    </header>
+    <div class="torso">
+        <div class="skeleton">
+            <h1><em>Contact Us</em></h1>
+            <p>Thanks for your interest in our mentorship program! We'd love to hear from you. Whether you're a student
+                who
+                wants to join as a mentee or a mentor who wants to make a difference, please reach out to us using the
+                form
+                below.</p>
+            <p>We're a friendly and passionate team dedicated to helping high school students from underprivileged
+                families.
+                We
+                believe that every student deserves a chance to succeed, and that's why we're committed to providing
+                mentorship
+                and support to those who need it most.</p>
+            <p> If you have any questions, feedback, or suggestions for our program, don't hesitate to get in touch.
+                We're
+                always looking for ways to improve and make our mentorship experience even better.
+            </p>
+            <p> Thank you for considering our program. We can't wait to hear from you! <br><br> Best regards, <br>
+                Charity
+                Organisation
+            </p>
+
+        </div>
+        <div class="contactform">
+            <form action="backend.php">
+                <div class="checkbox">
+                    <label for="need">Reaching out for: </label><br>
+                    <select name="myNeed" id="need">
+                        <option value="more-info">Need more information about the mentorship program</option>
+                        <option value="mentor" selected>Interested in becoming a mentor</option>
+                        <option value="technical-issue">Technical issues with the website</option>
+                        <option value="feedback">General feedback/suggestions</option>
+                        <option value="other">Other inquiries</option>
+                    </select>
+                </div>
+                <label for="name">Name</label><br>
+                <input type="text" name="myName" id="name" placeholder="Enter your Name"><br>
+                <label for="date">Date</label><br>
+                <input type="date" name="myDate" id="date" placeholder="Date">
+                <div class="button">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
